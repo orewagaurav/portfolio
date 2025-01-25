@@ -19,7 +19,6 @@ a{
 .img2{
     border-radius: 50%;
     border: 2px solid rgb(255, 0, 0);
-    /* box-shadow: 2pxpx 3px rgb(0, 0, 0); */
 }
 h2{
     color: rgb(43, 15, 222);
@@ -34,10 +33,41 @@ h2{
     font-size: 2em;
     text-shadow: 2px 2px 3px rgb(2, 231, 90);
 }
+.skills img {
+    margin:2px;
+    transition: transform 0.3s ease;
+}
+.skills img:hover {
+    transform: scale(1.1);
+}
+.social-links a {
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.social-links a:hover {
+    transform: scale(1.1);
+}
+footer img{
+    margin:7px;
+    transition: transform 0.3s ease;
+}
+footer img:hover{
+    transform:scale(1.1);
+}
+.quote img{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 7px;
+    transition:transform 0.3s ease;
+}
+.quote img:hover{
+    transform:scale(1.04);
+}
 h3{
     color:blueviolet;
     
-
 }
 ul{
     color:lightseagreen;
