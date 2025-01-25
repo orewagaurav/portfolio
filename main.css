@@ -24,6 +24,7 @@ a{
 h2{
     color: rgb(43, 15, 222);
     text-indent: 10px;
+    text-shadow: 2px 2px 3px rgb(231, 170, 2);
     }
 .gaurav{
     margin-top: 30px;
@@ -39,7 +40,6 @@ h3{
 
 }
 ul{
-    /* color: rgb(175, 5, 237); */
     color:lightseagreen;
 }
 dl{
