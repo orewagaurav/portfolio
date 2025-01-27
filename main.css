@@ -13,8 +13,9 @@ h1{
     font-size: 3em;
 }
 a{
-    color: rgb(255, 0, 191);
-    text-decoration:#007 solid underline;
+    color: skyblue;
+    text-decoration:none;
+    /* text-shadow:2px 2px 3px rgb(107, 18, 80) ; */
 }
 .img2{
     border-radius: 50%;
