@@ -20,6 +20,10 @@ a{
 .img2{
     border-radius: 50%;
     border: 2px solid rgb(255, 0, 0);
+    transition: transform 0.3s ease;
+}
+.img2:hover{
+    transform:scale(.9);
 }
 h2{
     color: rgb(43, 15, 222);
